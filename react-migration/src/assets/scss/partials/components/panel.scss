@@ -1,0 +1,18 @@
+// Import vars and settings
+@import '../../_ui/ui.scss';
+// Import each element used in the panel (after migration you can remove it)
+@import '../elements/checkbox';
+
+.Panel {
+  display: flex;
+  &__title {
+    display: block;
+    width: 100%;
+    color: $brand-primary;
+    font-size: $title-panel;
+  }
+  &__container{
+    display: flex;
+    width: 100%;
+  }
+}
